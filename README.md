@@ -3,22 +3,20 @@
 ## Release schedule
 
 | Release  | Status              | Codename    |Initial Release | Active LTS Start | Maintenance Start | End-of-life                |
-| :--:     | :---:               | :---:       | :---:          | :---:            | :---:                 | :---:                     |
-| [8.x][]  | **Maintenance LTS** | [Carbon][]  | 2017-05-30     | 2017-10-31       | 2019-01-01            | December 2019<sup>1</sup> |
-| [10.x][] | **Active LTS**      | [Dubnium][] | 2018-04-24     | 2018-10-30       | April 2020            | April 2021                |
-| [12.x][] | **Current Release** |             | 2019-04-23     | 2019-10-22       | April 2021            | April 2022                |
-| 13.x     | **Pending**         |             | 2019-10-22     |                  |                       | June 2020                 |
-| 14.x     | **Pending**         |             | April 2020     | October 2020     | April 2022            | April 2023                |
+| :--:     | :---:               | :---:       | :---:          | :---:            | :---:                 | :---:                     
+| [8.x][]  | **Maintenance LTS** | [Carbon][]  | 2017-05-30     | 2017-10-31       | 2019-01-01            | December 2019|
+| [10.x][] | **Active LTS**      | [Dubnium][] | 2018-04-24     | 2018-10-30       | April 2020            | April 2021                
+| [12.x][] | **Current Release** |             | 2019-04-23     | 2019-10-22       | April 2021            | April 2022                
+| 13.x     | **Pending**         |             | 2019-10-22     |                  |                       | June 2020                 
+| 14.x     | **Pending**         |             | April 2020     | October 2020     | April 2022            | April 2023                
 
-Dates are subject to change.
+## Dates are subject to change.
 
-* <sup>1</sup>: The 8.x *Maintenance* LTS cycle is currently scheduled to expire
-  early on December 31, 2019 to align with the scheduled End-of-Life of
-  OpenSSL-1.0.2.
+|The 8.x *Maintenance* LTS cycle is currently scheduled to expire early on December 31, 2019 |
+|to align with the scheduled End-of-Life of OpenSSL-1.0.2.                                   |
+|<i>  <img src="schedule.svg" alt="LTS Schedule"/>                                       </i>|
 
-<p><img src="schedule.svg" alt="LTS Schedule"/></p>
-
-The Release schedule is available also as a [JSON][] file.
+|| The Release schedule is available also as a [JSON][] file.                               ||
 
 ### End-of-Life Releases
 
@@ -138,19 +136,27 @@ there is no guarantee that any release will be made.
 
 ### LTS Staging Branches
 
-Every LTS major version has two branches in the GitHub repository: a release
-branch and a staging branch. The release branch is used to cut new releases.
-Only members of the @nodejs/releasers team should land commits onto release branches.
-The staging branch is used to land cherry-picked or backported commits from
-master that need to be included in a future release. Only members of
-@nodejs/backporters should land commits onto staging branches.
+Every LTS major version has two branches in the GitHub repository: a release branch and a staging branch. 
+The release branch is used to cut new releases. Only members of the @nodejs/releasers team should land 
+commits onto release branches. The staging branch is used to land cherry-picked or backported commits from
+master that need to be included in a future release. Only members of @nodejs/backporters should land 
+commits onto staging branches.
 
-For example, for Node.js v4, there is a `v4.x` branch and a `v4.x-staging`
-branch. When commits land in master that must be cherry-picked for a future
-Node.js v4 release, those must be landed into the `v4.x-staging` branch. When
-commits are backported for a future Node.js v4 release, those must come in the
-form of pull requests opened against the `v4.x-staging` branch. **Commits are
-only landed in the `v4.x` branch when a new `v4.x` release is being prepared.**
+# For example,
+
+# for Node.js v4, there is a 
+v4.x branch, 
+# and a 
+v4.x-staging branch. 
+
+# When commits land in master that must be cherry-picked for a future 
+# Node.js v4 release, those must be landed into the 
+v4.x-staging branch. 
+
+When commits are backported for a future Node.js v4 release, 
+those must come in the form of pull requests opened against the `v4.x-staging` branch. 
+
+## **Commits are only landed in the `v4.x` branch when a new `v4.x` release is being prepared.** ##
 
 [Argon]: https://nodejs.org/download/release/latest-argon/
 [Boron]: https://nodejs.org/download/release/latest-boron/
