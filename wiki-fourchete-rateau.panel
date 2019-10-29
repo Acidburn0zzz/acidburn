@@ -1,0 +1,58 @@
+# Navigation
+
+* [Home:'https://github.com/Acidburn0zzz/fourchete-rateau-nodejs'](home:'https://github.com/Acidburn0zzz/fourchete-rateau-nodejs')
+
+## Information
+
+* [Current release: 3.9.0](../releases/tag/3.9.0)
+* [Ampache Use Cases](Ampache-Use-Cases)
+* [Screenshots](https://ampache.github.io/#preview)
+* [Troubleshooting](Troubleshooting)
+  * [Frequently Asked Questions](FAQ)
+* [Template for submitting issues](Issues)
+
+## Installation
+
+* [General installation](Installation)
+  * [Windows installation guide](Windows-Installation-Guide)
+* [Building your first catalog](Catalog)
+* [Upgrading Ampache](Upgrade)
+* [Clients list](Clients)
+* [TV shows and movies](TV-Shows-and-Movies)
+
+## Configuration
+
+* [Basic configuration](Basic)
+  * [Access Control Lists](ACL)
+  * [Ampache remote catalogs](API-RPC)
+  * [LDAP authentication](LDAP)
+  * [Using an API (Ampache, Subsonic, Plex, UPnP, DAAP, WebDAV)](API)
+  * [Command Line Tools](CLI)
+* [Transcoding](Transcoding)
+* [Localplay](Localplay)
+  * [MPD](MPD)
+  * [HttpQ](HttpQ)
+  * [VLC](VLC)
+  * Kodi - TODO
+* [Democratic playback](Democratic)
+* [Web player](Web-Player)
+* Missing Albums - Missing!
+* [Channels](Channels)
+  * [Ampache on Icecast](Ampache-on-Icecast)
+* [Broadcasts](Broadcasts)
+* [Coherence (3rd party UPnP / DLNA server)](Coherence)
+* [Podcasts](Podcasts)
+
+## Theming
+
+* [Theming Ampache](Themes)
+
+## Development
+
+* [Coding standards](Coding-Standards)
+* [Code philosophy](Code-Philosophy)
+* [Localplay API](Localplay-API)
+* [XML API documentation](XML-API)
+  * [XML API method list](XML-methods)
+* [Translating Ampache](https://github.com/ampache/ampache/blob/master/locale/base/TRANSLATIONS.md)
+* [Enhancement Requests](Enhancement-Requests)
